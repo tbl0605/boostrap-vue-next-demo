@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--Comment out b-overlay to make everything work again. -->
     <b-overlay :show="!!showOverlay" opacity="0.6" :no-fade="true">
       <component
         v-bind="$attrs"

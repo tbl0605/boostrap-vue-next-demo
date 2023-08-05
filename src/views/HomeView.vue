@@ -1,5 +1,9 @@
 <template>
   <Form class="needs-validation" novalidate @submit.stop.prevent="" v-slot="{ validate }">
+    <ul>
+      <li>writing "1" (without the quotes) in the input field will work as expected</li>
+      <li>writing "a" (without the quotes) in the input field will make b-overlay crash</li>
+    </ul>
     <div class="form-row align-items-start">
       <div class="form-group col-8">
         <AsyncVeeInput
