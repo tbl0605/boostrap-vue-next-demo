@@ -1,7 +1,7 @@
 import { createApp, markRaw } from 'vue'
 import App from './App.vue'
 import { configure, defineRule } from 'vee-validate'
-import AllRules from '@vee-validate/rules'
+import * as AllRules from '@vee-validate/rules'
 import { localize } from '@vee-validate/i18n'
 import en from '@vee-validate/i18n/dist/locale/en.json'
 import BootstrapVueNext from 'bootstrap-vue-next'

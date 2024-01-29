@@ -14,7 +14,7 @@
     "@vee-validate/i18n": "^4.11.6",
     "@vee-validate/rules": "^4.11.6",
     "bootstrap": "^5.3.1",
-    "bootstrap-vue-next": "^0.10.11",
+    "bootstrap-vue-next": "^0.16.0",
     "lodash": "^4.17.21",
     "p-queue": "^7.4.1",
     "vee-validate": "^4.11.6",
